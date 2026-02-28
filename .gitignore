@@ -1,1 +1,3 @@
 memo/
+# Local Codex skills (keep out of VCS)
+.codex/skills/

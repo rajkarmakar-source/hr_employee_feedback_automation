@@ -26,10 +26,12 @@ The system will collect feedback through four distinct forms:
 - **Yearly sheet data** will be used for generating **appraisal emails**
 - An algorithm will be developed to calculate yearly performance metrics from quarterly data
 
-### AI Chatbot Insights
-Based on the feedback rating, the chatbot will:
-- Identify **areas of improvement** for the employee
+### Performance Identification (Server-Side)
+Based on the feedback rating, the server will:
+- Identify the employee's **performance level**
+- Highlight **areas of improvement**
 - Highlight **what the employee is already doing well**
+- Generate **quarterly and yearly HR email payloads** for reporting
 
 ### Discrepancy Alerts
 - If there is a **rating difference > 1** between self-feedback and Manager/Client feedback, an **alert email** will be sent to the HR team
